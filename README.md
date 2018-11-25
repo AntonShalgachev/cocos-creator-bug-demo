@@ -11,4 +11,4 @@
 * Drag 'Player' prefab onto the scene
 * Revert resulting node by pressing "Go Back" button in the 'Player' node Properties window
 
-Result: 'Player' node contains 2 identical PhysicsBoxCollider components with the same data (but data should be different)
+#### Result: 'Player' node contains 2 identical PhysicsBoxCollider components with the same data (but data should be different)
