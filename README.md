@@ -1,9 +1,7 @@
 ## ghost-collider
-* Create 2 nodes on the same level in hierarchy:
-  * Create empty node (say, 'Objects')
-  * Create node (say, 'Player') with RigidBody & PhysicsBoxCollider
-* Make 'Player' a child of 'Objects' by dragging 'Player' with the mouse onto 'Objects'
+* Move 'Player' node into the 'Object' node by dragging 'Player' with the mouse onto 'Objects'
 * Move\scale scene in the editor with the mouse
+#### Result: ghost collider of 'Player' just draws itself on top of everything and doesn't respond to the scene movement\scale in the editor
 
 ## scaled-joint
 
