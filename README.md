@@ -12,3 +12,8 @@
 * Revert resulting node by pressing "Go Back" button in the 'Player' node Properties window
 
 #### Result: 'Player' node contains 2 identical PhysicsBoxCollider components with the same data (but data should be different)
+
+## anchor-handle-offset
+* Try to move joint anchor handle on the scene with the mouse (node 'Player')
+
+#### Result: After grabbing anchor with the mouse and moving it just a bit, the anchor jumps to the top-right of the mouse; then it has a constant offset from the mouse (seems like this offset is `nodeSize * 0.5`) 
